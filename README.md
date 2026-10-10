@@ -193,7 +193,7 @@ The backend reads configuration from `backend/.env`. A template is provided in `
 | :--- | :--- | :--- |
 | `PORT` | Port for Express server | `5000` |
 | `MONGODB_URI` | MongoDB connection URI (local or Atlas) | `mongodb://127.0.0.1:27017/portfolio_generator` |
-| `JWT_SECRET` | Secret key for signing JWT tokens | `super_secret_jwt_key_portfolio_2026_dev` |
+| `JWT_SECRET` | Secret key for signing JWT tokens | `replace_with_your_secret` |
 | `CLIENT_URL` | Allowed origin for CORS | `http://localhost:5173` |
 
 ---
