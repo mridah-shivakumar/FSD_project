@@ -1,0 +1,24 @@
+{
+  "name": "smart-digital-portfolio-generator",
+  "version": "1.0.0",
+  "description": "Smart Digital Portfolio Generator - Full-Stack Web Application",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "portfolio-generator",
+    "react",
+    "vite",
+    "express",
+    "mongodb",
+    "jwt",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "ISC"
+}
