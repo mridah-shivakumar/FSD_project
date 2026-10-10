@@ -17,8 +17,14 @@ build/
 logs/
 *.log
 
+# Local Database data
+data/
+backend/data/
+*.lock
+
 # Editor & OS files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+

@@ -432,14 +432,26 @@ input, textarea, select {
 
 /* Print Styles */
 @media print {
-  /* Hide non-portfolio UI */
+  /* Hide non-portfolio controls and action buttons */
   .no-print,
   nav,
   footer,
   .portfolio-actions-bar,
-  .btn,
+  button,
   .toast-container {
     display: none !important;
+  }
+
+  /* In printed resume, render candidate links cleanly without button background */
+  .portfolio-view .btn {
+    display: inline-flex !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #0f172a !important;
+    text-decoration: underline !important;
+    font-size: 9pt !important;
   }
 
   body {
